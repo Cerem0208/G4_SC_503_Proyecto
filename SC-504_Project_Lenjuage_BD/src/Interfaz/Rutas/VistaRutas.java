@@ -371,9 +371,9 @@ public class VistaRutas extends javax.swing.JPanel {
             agregarRutas.isEdit_ = true;
             agregarRutas.ID_aEditar_ = ID_Ruta;
 
-            if (agregarRutas == null) {
-                agregarRutas = new AgregarRutas();
-            }
+           
+            agregarRutas = new AgregarRutas();
+            
 
             agregarRutas.setVistaRutas(this);
             agregarRutas.setDatosEdicion(Chofer_asignado, Costo, Duracion, Llegada, Salida, Pais, Tipo_Ruta, tieneChofer);

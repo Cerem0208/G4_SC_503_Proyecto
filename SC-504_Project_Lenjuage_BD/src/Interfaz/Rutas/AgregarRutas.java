@@ -671,6 +671,7 @@ Debe haber 2 validaciones ya que chofer depende del toogle button, y es necesari
                     popups.pulgar_arriba("Ruta registrado exitosamente.");
                     actualizarTabla();
                     limpiarCampos();
+                    this.setVisible(false);
 
                 } catch (SQLException e) {
                     e.printStackTrace();
